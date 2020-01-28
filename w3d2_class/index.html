@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Dear Professor
+    Understanding how and what inheritance in javascript really made it easy to understand what classes are in
+    javascript. I completed the question about Bank accounts and am also working on the other homeworks as well.
+    It took me less than one hour to complete the assignment.-->
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Intro to Js</title>
+
+    <!-- importing mocha css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <!-- importing mocha -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+    <script>
+        mocha.setup('bdd'); // minimal setup
+    </script>
+    <!-- importing chai -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+    <script>
+        // setup global
+        let assert = chai.assert;
+    </script>
+    <script src="account.js"></script>
+    <script src="Bank.js"></script>
+    <script src="SavingAccount.js"></script>
+    <script src="CheckingAccount.js"></script>
+    <script src="Test-Mocha.js"></script>
+
+</head>
+<body>
+Look in the Chrome developer console to see the output. CTRL_SHIFT_J
+
+</p>
+<!-- update element, so the ui will change -->
+<div id="mocha"></div>
+<script>
+    mocha.run();
+</script>
+
+</body>
+</html>
